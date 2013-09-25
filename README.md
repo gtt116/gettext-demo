@@ -22,7 +22,9 @@ When you want to use gettext in your application. Follow 4 steps:
     nova.mo, then `gettext.install('nova')`
     
     :localedir: the path of locale dir, if not specified, use
-    `/usr/share/locale`. The structure of locale dir may like.
+    `/usr/share/locale`. 
+
+The structure of locale dir may like.
     
     locale
     ├── uk
@@ -44,7 +46,8 @@ When you want to use gettext in your application. Follow 4 steps:
     └── zu
         └── LC_MESSAGES
 
-    And the *.mo file should be located in LC_MESSAGES.
+And the *.mo file should be located in LC_MESSAGES.
+
 
 * Set the system language. For example: 
 
